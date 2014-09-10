@@ -16,7 +16,7 @@ setup
 7. Select Image->Set as wallpaper or Ctrl+F8
 8. Close the image.
 
-The next time that you run the script, it will update your background image automatically, even if the image happens to be a png. (see issue#1)
+The next time that you run the script, it will update your background image automatically, even if the image happens to be a png.
 
 keep images
 ===========
