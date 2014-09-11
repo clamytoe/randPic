@@ -8,12 +8,6 @@ img="wallpaper.jpg"
 # Image folder location
 imgFolder="$HOME/Pictures"
 
-# Combine the two above
-wallpaper="$imgFolder/$img"
-
-# Set the site address
-site="alpha.wallhaven.cc"
-
 # Set the resolution
 # All: Do not include for all
 # standard:
@@ -46,6 +40,12 @@ categories=111
 # 48:9				= 48x9
 # NOTE: Can combine them by seperating with ,
 #aspect=4x3,48x9
+
+# Set the site address
+site="alpha.wallhaven.cc"
+
+# Combine the two above
+wallpaper="$imgFolder/$img"
 
 # Address for the wallpaper website along with all of the selected options
 wallpaperURL="http://$site/wallpaper/search?categories=$categories&purity=$purity&resolution=$res&sorting=random&order=desc"
