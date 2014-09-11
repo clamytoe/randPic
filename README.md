@@ -89,6 +89,11 @@ The `aspect` varialbe sets the preferred aspect ration of the images. I did not 
 
 The `site` variable holds the domain name for our generous host that is providing the images for us. Visit them please. Since the script is specifically coded to work with the html code of [wallhaven](http://alpha.wallhaven.cc/) changing this value will effectively break the script, so don't do it. The site is in alpha, so the code could change at any time. When it does, I'll make sure to update my script.
 
+
+**all others**
+
+The rest of the variables should be left as is. They are for the actual code to use, so editing them is not necessary. Doing so might actually break the script.
+
 <a name="example"></a>
 ## Example
 
