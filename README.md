@@ -11,7 +11,7 @@
 <a name="about"></a>
 # randPic 2.0.1
 
-Download a random wallpaper from wallhaven.cc
+Download a random wallpaper from [wallhaven.cc](http://alpha.wallhaven.cc/).
 
 I use this mainly to change my wallpaper every morning. I used to use it on wallbase.cc, but since that site went offline, I've reworked the script to work on this site instead. I'm using this on Linux Mint 17 but it should work on any other distro as well.
 
@@ -87,7 +87,7 @@ The `aspect` varialbe sets the preferred aspect ration of the images. I did not 
 
 **site**
 
-The `site` variable holds the domain name for our generous host that is providing the images for us. Visit them please. Since the script is specifically coded to work with the html code of [wallhaven](alpha.wallhaven.cc) changing this value will effectively break the script, so don't do it. The site is in alpha, so the code could change at any time. When it does, I'll make sure to update my script.
+The `site` variable holds the domain name for our generous host that is providing the images for us. Visit them please. Since the script is specifically coded to work with the html code of [wallhaven](http://alpha.wallhaven.cc/) changing this value will effectively break the script, so don't do it. The site is in alpha, so the code could change at any time. When it does, I'll make sure to update my script.
 
 <a name="example"></a>
 ## Example
