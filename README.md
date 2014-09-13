@@ -1,7 +1,7 @@
 <a name="about"></a>
 # randPic 2.0.1
 
-Download a random wallpaper from [wallhaven.cc](http://alpha.wallhaven.cc/).
+Download a random pictures from [wallhaven.cc](http://alpha.wallhaven.cc/).
 
 I use this mainly to change my wallpaper every morning. I used to use it on wallbase.cc, but since that site went offline, I've reworked the script to work on this site instead. I'm using this on Linux Mint 17 but it should work on any other distro as well.
 
@@ -26,7 +26,7 @@ This version works just like the previous one. I just cleaned up the code a bit 
 
 * Create a ~/bin, `mkdir ~/bin`, directory in your home folder if you don't already have one.
 * Place the scripts in there and `chmod +x` them to make them executable.
-* Run the `./randPic` script. A `wallpaper.jpg` image will be saved in your `~/Pictures` directory.
+* Run the `./randPic.sh` script. A `wallpaper.jpg` image will be saved in your `~/Pictures` directory.
 * Navigate to `~/Pictures` with your file manager.
 * If the image that was download, is a jpg image, you should be able to see a thumbnail of the image. If it is proceed; otherwise run the script once gain until you get a jpg.
 * `Double-click` the image to open it with `Image Viewer` or whatever your default image viewer might be. A jpg image will open up without any problems. A PNG file that has been saved with the jpg extension will not.
@@ -38,7 +38,7 @@ The next time that you run the script, it will update your background image auto
 <a name="saving"></a>
 ## Saving Images
 
-If you happen upon an awesome image that you want to keep, simply run the `./keepWall` script to save it. The image will be named `wallpaper_TIMESTAMP.jpg` in the `~/Pictures/wallpapers` directory.
+If you happen upon an awesome image that you want to keep, simply run the `./keepWall.sh` script to save it. The image will be named `wallpaper_TIMESTAMP.jpg` in the `~/Pictures/wallpapers` directory.
 
 NOTE
 ====
@@ -110,4 +110,4 @@ The only "bug", if you want to call it that, is that at times the script can run
 <a name="license"></a>
 ## License
 
-The `randPic` and `keepWall` scripts are release under the [GPLv3 License](http://www.gnu.org/copyleft/gpl.html).
+The `randPic.sh` and `keepWall.sh` scripts are release under the [GPLv3 License](http://www.gnu.org/copyleft/gpl.html).
