@@ -1,13 +1,3 @@
-# Index
-
-- [About](#about)
-- [Setup](#setup)
-- [Saving](#saving)
-- [Features](#features)
-- [Example](#example)
-- [Bugs](#bugs)
-- [License](#license)
-
 <a name="about"></a>
 # randPic 2.0.1
 
@@ -20,6 +10,16 @@ Its a shell script that utilizes curl and possibly wget; along with other common
 Version: 2.0.1 - Released: 10th of September 2014
 
 This version works just like the previous one. I just cleaned up the code a bit and used more variables instead of using string literals in the code to facilitate future modifications, if any.
+
+# Index
+
+- [About](#about)
+- [Setup](#setup)
+- [Saving](#saving)
+- [Features](#features)
+- [Example](#example)
+- [Bugs](#bugs)
+- [License](#license)
 
 <a name="setup"></a>
 ## Setup
