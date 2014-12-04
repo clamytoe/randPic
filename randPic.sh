@@ -1,5 +1,5 @@
 #!/bin/sh
-# Version: 2.0.1
+# Version: 2.0.2
 # Description: Download a random wallpaper from wallhaven.cc.
 
 # Name for your wallpaper image
@@ -18,13 +18,13 @@ imgFolder="$HOME/Pictures"
 #res=1366x768
 
 # Set the purity filter setting
-# SFW				  = 100
+# SFW			    = 100
 # Sketchy			= 010
 # Both				= 110
 purity=100
 
 # Set the category
-# General		          = 100
+# General		        = 100
 # Manga/Anime	        = 010
 # People            	= 001
 # NOTE: Can combine them
@@ -42,19 +42,19 @@ categories=111
 #aspect=4x3,48x9
 
 # Set the site address
-site="alpha.wallhaven.cc"
+site="wallhaven.cc"
 
 # Combine the two above
 wallpaper="$imgFolder/$img"
 
 # Address for the wallpaper website along with all of the selected options
-wallpaperURL="http://$site/wallpaper/search?categories=$categories&purity=$purity&resolution=$res&sorting=random&order=desc"
+wallpaperURL="http://alpha.$site/search?categories=$categories&purity=$purity&sorting=random&order=desc"
 
 # Randomly selected image
-randPicURL=`curl -s "$wallpaperURL" | grep -oP '<a class="preview" href="http://'$site'/wallpaper/(.*)"' | head -1 | cut -d "\"" -f 4`
+randPicURL=`curl -s "$wallpaperURL" | grep -oP '<a class="preview" href="http://alpha.'$site'/wallpaper/(.*)"' | head -1 | cut -d "\"" -f 4`
 
 # Parse out the image url
-randPic=`curl -s $randPicURL | grep -oP 'src="http://'$site'/wallpapers/full/(.*)' | cut -d "\"" -f 2`
+randPic=`curl -s $randPicURL | grep -oP 'src="//wallpapers.'$site'/wallpapers/full/(.*)' | cut -d "\"" -f 2`
 
 ########
 # NOTE #
@@ -64,6 +64,6 @@ randPic=`curl -s $randPicURL | grep -oP 'src="http://'$site'/wallpapers/full/(.*
 # cd $imgFolder; wget $randPic
 
 # Download it
-curl -s -o $wallpaper $randPic
+curl -s -o $wallpaper http:$randPic
 
 exit 0
