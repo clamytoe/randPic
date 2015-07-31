@@ -38,7 +38,7 @@ The next time that you run the script, it will update your background image auto
 <a name="saving"></a>
 ## Saving Images
 
-If you happen upon an awesome image that you want to keep, simply run the `./keepWall.sh` script to save it. The image will be named `wallpaper_TIMESTAMP.jpg` in the `~/Pictures/wallpapers` directory.
+If you happen upon an awesome image that you want to keep, simply run the `./keepWall.sh` script to save it. The image will be named `wallpaper_TIMESTAMP.jpg` or `wallpaper_TIMESTAMP.png` in the `~/Pictures/wallpapers` directory.
 
 NOTE
 ====
@@ -105,7 +105,7 @@ To save the image: `keepWall`
 <a name="bugs"></a>
 ## Bugs
 
-The only "bug", if you want to call it that, is that at times the script can run pretty slow. It's all dependent on your Internet connection speed and how much traffic the site is having. The first few days that I was trying it out, it was slow, but since then, it has ran pretty well.
+None.
 
 <a name="license"></a>
 ## License
