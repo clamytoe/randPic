@@ -48,10 +48,10 @@ site="wallhaven.cc"
 wallpaper="$imgFolder/$img"
 
 # Address for the wallpaper website along with all of the selected options
-wallpaperURL="http://alpha.$site/search?categories=$categories&purity=$purity&sorting=random&order=desc"
+wallpaperURL="https://alpha.$site/search?categories=$categories&purity=$purity&sorting=random&order=desc"
 
 # Randomly selected image
-randPicURL=`curl -s "$wallpaperURL" | grep -oP '<a class="preview" href="http://alpha.'$site'/wallpaper/(.*)"' | head -1 | cut -d "\"" -f 4`
+randPicURL=`curl -s "$wallpaperURL" | grep -oP '<a class="preview" href="https://alpha.'$site'/wallpaper/(.*)"' | head -1 | cut -d "\"" -f 4`
 
 # Parse out the image url
 randPic=`curl -s $randPicURL | grep -oP 'src="//wallpapers.'$site'/wallpapers/full/(.*)' | cut -d "\"" -f 2`
