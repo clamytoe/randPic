@@ -64,6 +64,6 @@ randPic=`curl -s $randPicURL | grep -oP 'src="//wallpapers.'$site'/wallpapers/fu
 # cd $imgFolder; wget $randPic
 
 # Download it
-curl -s -o $wallpaper http:$randPic
+curl -s -o $wallpaper https:$randPic
 
 exit 0
