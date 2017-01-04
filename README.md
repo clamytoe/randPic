@@ -1,11 +1,15 @@
 <a name="about"></a>
-# randPic 2.0.1
+# randPic 2.0.2
 
 Download a random pictures from [wallhaven.cc](http://alpha.wallhaven.cc/).
 
 I use this mainly to change my wallpaper every morning. I used to use it on wallbase.cc, but since that site went offline, I've reworked the script to work on this site instead. I'm using this on Linux Mint 17 but it should work on any other distro as well.
 
 Its a shell script that utilizes curl along with other common unix/linux tools.
+
+Version: 2.0.2 - Updated: 4th of January 2017
+
+Noticed that I had neglected to change the last curl command to use https instead of http. The site switched to using secure connections, so this will get rid of any errors that move might have introduced.
 
 Version: 2.0.1 - Released: 10th of September 2014
 
