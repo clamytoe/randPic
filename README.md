@@ -1,4 +1,3 @@
-<a name="about"></a>
 # randPic 2.0.2
 
 Download a random pictures from [wallhaven.cc](http://alpha.wallhaven.cc/).
@@ -17,15 +16,13 @@ This version works just like the previous one. I just cleaned up the code a bit 
 
 # Index
 
-- [About](#about)
 - [Setup](#setup)
-- [Saving](#saving)
+- [Saving](#saving-images)
 - [Features](#features)
 - [Example](#example)
 - [Bugs](#bugs)
 - [License](#license)
 
-<a name="setup"></a>
 ## Setup
 
 * Create a ~/bin, `mkdir ~/bin`, directory in your home folder if you don't already have one.
@@ -39,7 +36,6 @@ This version works just like the previous one. I just cleaned up the code a bit 
 
 The next time that you run the script, it will update your background image automatically, even if the image happens to be a png.
 
-<a name="saving"></a>
 ## Saving Images
 
 If you happen upon an awesome image that you want to keep, simply run the `./keepWall.sh` script to save it. The image will be named `wallpaper_TIMESTAMP.jpg` or `wallpaper_TIMESTAMP.png` in the `~/Pictures/wallpapers` directory.
@@ -48,7 +44,6 @@ NOTE
 ====
 Each time you run the `randPic` script, your current `~/Pictures/wallpaper.jpg` image will be overwritten. If you want to keep it, make sure to run `keepWall` first!
 
-<a name="features"></a>
 ## Features
 
 The script is filled with detailed explanation of the different options that can be used to generate the random images with. Simply edit the field as instructed in the comments.
@@ -98,7 +93,6 @@ The `site` variable holds the domain name for our generous host that is providin
 
 The rest of the variables should be left as is. They are for the actual code to use, so editing them is not necessary. Doing so might actually break the script.
 
-<a name="example"></a>
 ## Example
 
 Once you've installed the script as specified above in the [Setup](#setup) section, the script can be ran from anywhere because the `~/bin` directory is in your path. The scripts are ran from the command shell or from any link that you might have created.
@@ -106,12 +100,10 @@ Once you've installed the script as specified above in the [Setup](#setup) secti
 To get a new image: `randPic`
 To save the image: `keepWall`
 
-<a name="bugs"></a>
 ## Bugs
 
 None.
 
-<a name="license"></a>
 ## License
 
 The `randPic.sh` and `keepWall.sh` scripts are release under the [GPLv3 License](http://www.gnu.org/copyleft/gpl.html).
