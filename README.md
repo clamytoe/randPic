@@ -1,4 +1,5 @@
 # randPic 2.0.2
+> NOTICE: This script is no longer being maintained. I've re-implemented it in Python and can be found here: [Random-Picture](https://github.com/clamytoe/Random-Picture)
 
 Download a random pictures from [wallhaven.cc](http://alpha.wallhaven.cc/).
 
